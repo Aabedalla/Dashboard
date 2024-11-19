@@ -1,0 +1,203 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Jost", sans-serif !important;
+}
+a{
+    text-decoration: none !important;
+}
+.Logo h2{
+    margin: 10px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.Logo{
+    padding-top: 15px;
+}
+.DashboardHomePage{
+    padding-left: 20px;
+}
+.DashboardHomePage h3{
+    display: contents;
+    color: black;
+    font-size: 20px;
+}
+.bi-speedometer2,.bi-card-list,.bi-plus-square-fill,.bi-person-fill,.bi-person-fill-add
+,.bi-easel2-fill,.bi-building-fill-add,.bi-bookmark-star,.bi-bookmark-plus-fill,.bi-person-circle,.bi-gear-fill,.bi-box-arrow-in-left{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+.all-opp{
+    margin: 5px;
+    padding-bottom: 15px;
+}
+.nav-tittle h4{
+    margin-left: 30px;
+}
+.DashboardHomePage h3:hover{
+    transition: 0.3s;
+    transform: 0.3s;
+    color: rgb(146 214 7) ;
+}
+.dash-widget{
+    background: #fff;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    border: 1px solid #e8ebed;
+}
+.dash-widget .dash-widgetcontent {
+    margin-left: 20px;
+}
+.dash-widgetimg i {
+    font-size: 30px;
+}
+.user-menu.nav>li>a {
+    color: #212b36;
+    font-size: 15px;
+    line-height: 70px;
+    height: 60px;
+    padding: 0 15px;
+}
+.profileset{
+    display: flex;
+}
+
+.user-img img {
+    width: 50px;
+    float: left;
+    border-radius: 50px;
+    margin: 0px 10px;
+}
+.dropdown-menu{
+    margin-top: 29px;
+}
+.do{
+    font-size: 17px;
+    padding: 5px;
+}
+.do .bi-trash3-fill{
+    color: red;
+}
+.do .bi-pencil-square{
+     color: gray;
+}
+.nav-item{
+    margin: 50px 0px 50px 50px;
+}
+.pro-pc img{
+    width: 40px;
+}
+.pro-pc{
+    border-radius: 50px;
+}
+
+/* login page */
+
+.lo{
+    background-image: url(img/child.jpg);
+    background-size: cover;
+}
+.login{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    padding-bottom: 20px;
+    margin: 30px 0px;
+    opacity: 90%;
+    margin-top: 20px;
+}
+.login-img {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.login-img img{
+    width: 80%;
+    border-radius: 10px;
+}
+.log-form{
+    padding: 60px 50px 20px 50px;
+    
+}
+.log-form p{
+    color: gray;
+}
+.log-form input{
+    display: block;
+}
+.logEmail,.logPassword,.Name{
+    width: 100%;
+    padding: 11px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.log-btn{
+    width: 100%;
+    margin: 20px 0px;
+    padding: 12px;
+    border: 1px #675acd solid;
+    border-radius: 5px;
+    color: white;
+    background-color: #675acd;
+}
+
+/* setting */
+.setting-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.personal-ifo label{
+    margin-left: 20px;
+}
+.personal-ifo input{
+    display: block;
+    width: 90%;
+    margin: 6px 0px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.sett-tittle{
+    display: flex;
+}
+.sett-tittle img{
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px;
+    border: 3px green solid;
+}
+.sett-tittle h3{
+    padding-top: 50px;
+}
+.ss{
+    padding-bottom: 10px;
+}
+.sett-btn{
+    margin: 20px;
+}
+.sett-btn button{
+    padding: 10px 30px;
+    border: 1px #ff9f43 solid;
+    border-radius: 5px;
+    background-color: #ff9f43;
+    color: white;
+}
+.profileInformation{
+    padding: 20px;
+}
+.profileInformation h4{
+    margin: 15px 0px;
+}

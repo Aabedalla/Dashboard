@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+.curds{
+    width: 80%;
+    margin: auto;
+}
+.heads{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    color: #fff;
+    border: none;
+    background: #111;
+    margin: 4px 0px !important;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+input:focus{
+    background: #000;
+    transform: scale(1.1);
+}
+.pric input{
+    width: 20%;
+}
+#tottal{
+    background-color: #ff0000;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+
+#deletAll{
+    margin: 20px 0;
+}
+
+#tottal::before{
+    content: 'Total ';
+}
+
+.btnSearch button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+#submit{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#submit,#deletAll:hover{
+    background-color: rgb(29, 172, 29);
+    letter-spacing: 2px;
+}
+.btnSearch button:hover{
+    background-color: rgb(29, 172, 29);
+    letter-spacing: 2px;
+}
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnSearch button{
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+#deletAll button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+td button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.dis{
+    width: 280px;
+}
+.if{
+    display: flex;
+}

@@ -1,0 +1,53 @@
+/* login page */
+
+
+.login{
+    display: flex !important;
+   
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    padding-bottom: 20px;
+    margin: 50px 0px;
+    opacity: 90%;
+    margin-top: 20px;
+}
+.login h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-img {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.login-img img{
+    width: 80%;
+    border-radius: 10px;
+}
+.log-form{
+    padding: 60px;
+    
+}
+.log-form p{
+    color: gray;
+}
+.log-form input{
+    display: block;
+}
+.logEmail,.logPassword,.Name{
+    width: 100%;
+    padding: 11px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.log-btn{
+    width: 100%;
+    margin: 20px 0px;
+    padding: 12px;
+    border: 1px #675acd solid;
+    border-radius: 5px;
+    color: white;
+    background-color: #675acd;
+}
+
